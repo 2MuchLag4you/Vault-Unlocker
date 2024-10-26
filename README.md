@@ -27,6 +27,7 @@ The Python script (`VaultUnlocker.py`) uses multithreading to efficiently test p
 **Run the Python Script**:
 ```bash
 python VaultUnlocker.py -v <volume_name> -d <dictionary_file> [options]
+```
 
 ### Bash Script
 The Bash script (`vault_unlocker.sh`) is a straightforward solution for users who prefer a shell script approach. It iterates through passwords in the dictionary and attempts to unlock the specified volume.
